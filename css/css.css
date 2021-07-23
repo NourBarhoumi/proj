@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 65px;
+}
+
+header img {
+    width: 130px;
+    height: 50px;
+    padding: 5px 40px;
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0 80px;
+}
+
+header li {
+    padding: 0 20px;
+}
+header li a {
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+    min-height: 100vh;
+
+}
+
+footer {
+    background-color: white;
+    margin-top: auto;
+}
+
+footer p {
+    justify-content: space-between;
+    text-align:center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
